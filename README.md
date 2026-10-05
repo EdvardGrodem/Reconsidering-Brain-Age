@@ -53,6 +53,8 @@ The dataset used for the empirical analysis can be accessed by following the ins
 
 You can run the synthetic-data analysis notebook after downloading the synthetic data from: [Link](https://uio-my.sharepoint.com/:f:/g/personal/edvardgr_uio_no/IgD6vQYUV_w-QIHNlZBoa3svAc5F66exqF6cYevbAcozxAY?e=GAkZ5e)
 
+The feature-set and hyper-parameters for the brain-age models are also provided in the link above. 
+
 ## Prerequisites
 
 - Linux/macOS/Windows with terminal access
@@ -85,7 +87,7 @@ Notes:
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-pip install jupyterlab numpy pandas matplotlib seaborn scikit-learn statsmodels patsy xgboost ctgan sdv
+pip install jupyterlab numpy pandas matplotlib seaborn scikit-learn statsmodels patsy xgboost sdv
 ```
 
 ### Option B: Conda
@@ -93,7 +95,7 @@ pip install jupyterlab numpy pandas matplotlib seaborn scikit-learn statsmodels 
 ```bash
 conda create -n reconsider-brain-age python=3.11 -y
 conda activate reconsider-brain-age
-pip install jupyterlab numpy pandas matplotlib seaborn scikit-learn statsmodels patsy xgboost ctgan sdv
+pip install jupyterlab numpy pandas matplotlib seaborn scikit-learn statsmodels patsy xgboost sdv
 ```
 
 ## How to Use the Files
